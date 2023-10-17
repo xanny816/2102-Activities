@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+
+*{
+  font-family: Quicksand;
+}
+
+.content {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 5px;
+  border-bottom: 1px solid rgba(151, 151, 151, 0.53);
+}
+
+.header h1{
+  margin: 10px;
+}
+
+.links{
+  margin: 0px 5px;
+  padding: 0px 10px;
+  text-decoration: none;
+  color: gray;
+  border-right: 1px solid gray;
+}
+
+.sign-in-button{
+  width: 90px;
+  height: 40px;
+  margin: 0px 10px;
+  border: 1px solid gray;
+  border-radius: 30px;
+}
+
+.error-message{
+  margin-top: 40px;
+  text-align: center;
+  color: gray;
+}

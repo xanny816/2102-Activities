@@ -1,0 +1,44 @@
+.input-area{
+  text-align: center;
+  align-items: center;
+  margin: 40px;
+}
+
+.input-box{
+  height: 40px;
+  width: 350px;
+  border: 1px solid gray;
+  border-radius: 30px;
+  padding: 0 10px;
+}
+
+p{
+  margin: 10px;
+}
+
+.card-style{
+  padding: 10px 0px;
+  border: 1px solid gray;
+  border-radius: 8px;
+  height: 100%;
+}
+
+.add-button{
+  margin: 0px 10px;
+  padding: 3px 10px;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+.remove-button{
+  height: 30px;
+  font-size: 12px;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+.list-group-item{
+  align-items: center;
+  padding: 30px;
+  height: 70px;
+}
