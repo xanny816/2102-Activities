@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+
+*{
+  font-family: Quicksand;
+}
+
+.content {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.header {
+  text-align: center;
+  padding-bottom: 5px;
+  border-bottom: 1px solid rgba(151, 151, 151, 0.53);
+}
+
+.main-body{
+  margin-bottom: 25px;
+}
+
+.contact-preview{
+  display: flex;
+  justify-content: space-around;
+  transition: 0.15s;
+  border-bottom: 1px solid rgba(151, 151, 151, 0.147);
+  align-items: center;
+  padding: 5px 0px;
+}
+
+.contact-preview:hover{
+  box-shadow: 1px 1px 7px rgba(0, 0, 0, 0.104);
+}
+
+.remove-button{
+  height: 30px;
+}
+
+.empty{
+  color: gray;
+  padding: 20px 50px;
+}
+
+.form-section{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 20px;
+}
+
+.form-section-title{
+  margin: 10px 0px;
+}
+
+.input-area{
+  margin: 10px 0px;
+}
+
+.input-area input{
+  height: 35px;
+  width: 90%;
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 0px 5px;
+}
+
+.input-area label{
+  display: block;
+  color: gray;
+}
+
+.submit-button{
+  margin-top: 20px;
+  height: 30px;
+}

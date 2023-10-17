@@ -1,0 +1,20 @@
+.search-bar{
+  height: 40px;
+  width: 230px;
+  border: 1px solid gray;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.information-box{
+  border: 1px solid gray;
+  border-radius: 5px;
+  margin: 15px;
+  width: 250px;
+}
+
+.list{
+  list-style: none;
+  text-align: left;
+}
+
